@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root{
+    --main-background: hsl(233, 47%, 7%);
+    --card-background: hsl(244, 38%, 16%);
+    --accent: hsl(277, 64%, 61%);
+
+    --main-heading-stats: hsl(0, 0%, 100%);
+    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --stat-headings: hsla(0, 0%, 100%, 0.6);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #090B1A;
+  color: #FFF;
+  min-height: 40rem;
+  min-width: 80rem;
+   
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  min-height: 40rem;
+}
+.container{
+  background-color: #1B1938;
+  border-radius: 1rem;
+  display: flex;
+  height: 27.875rem;
+  margin: auto;
+  width: 69.375rem;
+}
+
+.information{
+  padding: 4.43rem 0 4rem 4.5rem;
+width: 24.719rem;
+}
+
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: .07rem;
+    line-height: 2.74rem;
+    margin-bottom: 1.65rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: .9375rem;
+  }
+
+
+.text{
+    font-family: "Lexend Deca", sans-serif;
+  letter-spacing: -.01rem;
+  line-height: 1.6rem;
+  margin-left: -.12rem;
+  opacity: .75;
+  width: 21.9rem;
+}
+
+.numbers-card{
+    color: #FFF;
+  display: flex;
+  margin: 4.7rem auto 3.92rem;
+}
+
+.stats-header {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+  }
+
+  .stats-text {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: .8rem;
+    letter-spacing: .02rem;
+    margin-top: .6rem;
+    opacity: .6;
+    text-transform: uppercase;
+    width: 9rem;
+  }
+
+  .people img{
+
+    padding-left: 12rem;
+    border-radius: 1rem;
+  }
+
+  span{
+
+  color: var(--accent);
+  }
